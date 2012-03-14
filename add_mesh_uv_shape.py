@@ -367,7 +367,7 @@ class AddUVBase:
                     alpha=True)
             for f in s_map.data:
                 f.image = self.image
-                f.use_image = True
+                f.image!=None
             obj.prim.type = 'PRIM_TYPE_SCULPT'
             obj.prim.sculpt_type = self.sculpt_type
 
