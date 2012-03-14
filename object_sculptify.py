@@ -118,7 +118,7 @@ class ObjectSculptify(bpy.types.Operator):
                 alpha=True)
             for f in uvs.active.data:
                 f.image = img
-                f.use_image = True
+                f.image!=None
         else:
             img = uvs.active.data[0].image
             img.source = 'GENERATED'
@@ -143,7 +143,7 @@ class ObjectSculptify(bpy.types.Operator):
             for f in uvs.active.data:
                 f.image = tex
                 if tex is not None:
-                    f.use_image = True
+                    f.image!=None
         if is_editmode:
             bpy.ops.object.mode_set(mode='EDIT')
         else:
