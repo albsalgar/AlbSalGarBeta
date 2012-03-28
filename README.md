@@ -1,7 +1,7 @@
-Sving2
+AlbSalGar
 =====
 
-Sving2 is a Python plugin for Blender3d 2.5 that allows the exporting of Second Life Sculpted Prims.
+AlbSalGar is a Python plugin for Blender3d 2.6+ that allows the exporting of Second Life Sculpted Prims.
 
 It is feature/maintenance fork of the previously GPL'd [Primstar 2] (http://dominodesigns.info/node/331).
 
@@ -9,10 +9,12 @@ The goal is to provide an Internet accessible repository of the last available G
 Any new patches merged here will NOT be forwarded upstream. This is the price of Free Software.
 Any patches submitted will be reviewed and merged in.
 
-Sving is not affiliated with the Machinimatrix or Primstar teams.
+AlbSalGar is not affiliated with the Machinimatrix or Primstar teams.
 
 Installing
 ----------
 
 Google around for where to put the scripts.
-
+A zip file containing the latest version is located here
+Plugin: http://bit.ly/wm5Lp5
+Video: http://youtu.be/yCJurV30lHw
